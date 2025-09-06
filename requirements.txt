@@ -1,7 +1,8 @@
-numpy
 pandas
 scikit-learn
 mlflow
 fastapi
-uvicorn
+uvicorn[standard]
 joblib
+matplotlib
+seaborn

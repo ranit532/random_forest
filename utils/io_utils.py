@@ -1,5 +1,12 @@
-import glob, os
+import joblib
+import os
 
-def latest_joblib(models_dir):
-    files = sorted(glob.glob(os.path.join(models_dir,'*')), key=os.path.getmtime, reverse=True)
-    return files[0] if files else None
+MODEL_DIR = "models"
+MODEL_PATH = os.path.join(MODEL_DIR, "random_forest_model.joblib")
+
+def load_model(path=MODEL_PATH):
+    """Loads a joblib model from the specified path."""
+    if not os.path.exists(path):
+        raise FileNotFoundError(f"Model file not found at {path}")
+    model = joblib.load(path)
+    return model

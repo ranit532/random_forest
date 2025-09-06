@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/2185206/random_forest/mlruns/580604399866401087/5c54fa4a8ca24c71824b8da9277507c7/artifacts
+end_time: 1757138349624
+entry_point_name: ''
+experiment_id: '580604399866401087'
+lifecycle_stage: active
+run_id: 5c54fa4a8ca24c71824b8da9277507c7
+run_name: salty-koi-785
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757138309653
+status: 3
+tags: []
+user_id: '2185206'
